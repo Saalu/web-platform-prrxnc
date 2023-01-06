@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+:root{
+ --dark: #444;
+ --light: #666;
+ --gray: #777;
+}
+
+.btn{
+  margin: 10px;
+  display: inline-block;
+  border: 2px solid var(--dark);
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+
+}
+
+.btn-1{
+  background: red;
+}
+.btn-2{
+  background: yellow;
+
+}
+.btn-3{
+  background: green;
+
+}
